@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+:root{
+    --color-primary: #f0f6fc;
+    --color-secondary: #2774f0;
+    --color-tertiary: #238636;
+    --color-quaternary: #1b1f25;
+    --color-quinary: #121d2f;
+    --color-down: #3a974c;
+}
+
+nav-links{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+    height: 80px;
+}
+
+nav {
+    background-color: var(--color-quaternary);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+nav h1 {
+    margin: 0;
+    color: var(--color-primary);
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+    transition: all 0.5s ease;
+}
+
+nav ul li:first-child {
+    margin-left: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: var(--color-primary);
+}
+
+nav ul li:hover {
+    transform: scale(1.3);
+    cursor: pointer;
+}
+
+#about {
+    width: 60%;
+    margin: 50px auto; 
+    padding: 20px;
+    background-color: var(--color-quinary);
+    border: 2px solid var(--color-secondary);
+    border-radius: 10px;
+    text-align: center;
+}
+
+#about h2 {
+    color: var(--color-primary);
+}
+
+#about p {
+    color: var(--color-secondary);
+}
+
+.projects {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+#projects h2 {
+    color: var(--color-primary);
+}
+
+#projects h3 {
+    color: var(--color-primary);
+}
+
+.project {
+    background-color: var(--color-quinary);
+    border: 2px solid var(--color-secondary);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.project img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.project p {
+    text-align: center;
+    color: var(--color-primary);
+}
+
+.GitHub{
+    height: 50px;
+    width: 350px;
+    font-size: 27px;
+    font-family: inherit;
+    color: var(--color-primary);
+    background-color: var(--color-tertiary);
+    border: 2px solid var(--color-tertiary);
+    border-radius: 10px;
+}
+
+.GitHub:hover{
+    background-color: var(--color-down);
+    border: 2px solid var(--color-primary);
+}
+
+.contact-content {
+    background-color: var(--color-quaternary);
+    color: var(--color-primary);
+    height: 100px;
+    padding: 20px;
+}
+
+.contact-content ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.contact-content ul li {
+    display: inline-block;
+    margin-right: 20px;
+    transition: all 0.5s ease;
+}
+
+.contact-content ul li a {
+    color: var(--color-primary);
+    text-decoration: none;
+}
+
+.contact-content ul li a:hover {
+    transform: scale(1.3);
+    cursor: pointer;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #0d1117;
+}
