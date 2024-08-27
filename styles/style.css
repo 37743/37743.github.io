@@ -26,6 +26,7 @@
   clear: both;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 nav-links{
