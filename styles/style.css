@@ -24,7 +24,8 @@
 .row::after {
   content: "";
   clear: both;
-  display: table;
+  display: flex;
+  justify-content: center;
 }
 
 nav-links{
