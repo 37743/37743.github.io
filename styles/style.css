@@ -24,10 +24,11 @@
 .row::after {
   content: "";
   clear: both;
-  display: flex;
   margin: auto;
   padding: 5px;
   width: 50%;
+  display: flex;
+  align-items: center;
 }
 
 nav-links{
