@@ -82,6 +82,60 @@ nav ul li:hover {
     color: var(--color-secondary);
 }
 
+#education {
+    width: 50%;
+    margin: 50px auto; 
+    padding: 20px;
+    background-color: var(--color-quinary);
+    border: 2px solid var(--color-secondary);
+    border-radius: 10px;
+    text-align: center;
+}
+
+#education h2 {
+    color: var(--color-primary);
+}
+
+#education p {
+    color: var(--color-secondary);
+}
+
+#experience {
+    width: 70%;
+    margin: 50px auto; 
+    padding: 20px;
+    background-color: var(--color-quinary);
+    border: 2px solid var(--color-secondary);
+    border-radius: 10px;
+    text-align: center;
+}
+
+#experience h2 {
+    color: var(--color-primary);
+}
+
+#experience p {
+    color: var(--color-secondary);
+}
+
+#skills {
+    width: 50%;
+    margin: 50px auto; 
+    padding: 20px;
+    background-color: var(--color-quinary);
+    border: 2px solid var(--color-secondary);
+    border-radius: 10px;
+    text-align: center;
+}
+
+#skills h2 {
+    color: var(--color-primary);
+}
+
+#skills p {
+    color: var(--color-secondary);
+}
+
 .projects {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
